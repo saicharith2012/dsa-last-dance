@@ -1,1 +1,120 @@
-hwllo, eorld!
+hello, world!
+-------------------------------------
+Size of byte 100 is 1 bytes.
+Size of short 30000 is 2 bytes.
+Size of int 1000000000 is 4 bytes.
+Size of long 1000000000000 is 8 bytes.
+Size of float 1.9914234 is 4 bytes.
+Size of double 1.3423423423423433 is 8 bytes.
+Size of char a is 2 bytes.
+Size of boolean true is 1 byte.
+-------------------------------------
+3
+6
+3
+6
+2
+0
+-------------------------------------
+0
+0
+false
+-------------------------------------
+false
+false
+false
+true
+false
+true
+-------------------------------------
+true
+false
+-------------------------------------
+6
+8
+6
+12
+6
+0
+-------------------------------------
+is num7 > num8: t
+-------------------------------------
+the name is charith
+character at 0th position: c
+character at 1th position: h
+character at 2th position: a
+character at 3th position: r
+character at 4th position: i
+character at 5th position: t
+character at 6th position: h
+Substring starting at letter a: arith
+Substring between at 0th and final position: harit
+fullname is: sai charith palabindhela
+true
+-------------------------------------
+customer id: 1
+customer name:  saicharith
+customer height: 172.5 cm
+customer sex:  male
+-------------------------------------
+10
+10.0
+10.1
+10
+-------------------------------------
+3
+-------------------------------------
+length of the array is: 5
+first element on zeroth array: 1
+first element on zeroth array: 1
+-------------------------------------
+adult
+Grade C
+q = 54 is largest.
+Thursday
+-------------------------------------
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+final sum is: 15
+-------------------------------------
+1
+2
+3
+4
+5
+-------------------------------------
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+33
+36
+39
+42
+45
+48
+-------------------------------------
+4
+5
+6
+7
+8
+9
+10
+-------------------------------------
+java.lang.ArithmeticException: / by zero
+End of code...
