@@ -426,5 +426,33 @@ public class JavaCollections {
         Collections.sort(al4, (num1, num2) -> num1 - num2);
         System.out.println(al4);
 
+        System.out.println("---------------------------");
+
+        // converting PRIORITY QUEUE from minheap to max heap using a comparator
+        PriorityQueue<Integer> pq2 = new PriorityQueue<>(getComparator());
+        pq2.offer(1);
+        pq2.offer(4);
+        pq2.offer(3);
+        pq2.offer(8);
+        System.out.println(pq2);
+        System.out.println(pq2.peek()); // peek returns the largest elment unlike a normal priority queue
+        // poll() removes the largest element
+        System.out.println(pq2.poll());
+        System.out.println(pq2);
+
+    }
+
+    public static Comparator<Integer> getComparator() {
+        return new Comparator<Integer> () {
+            @Override
+            public int compare(Integer num1, Integer num2) {
+                if (num1 < num2) {
+                    return 1;
+                } else if (num1 > num2) {
+                    return -1;
+                }
+                return 0;
+            }
+        };
     }
 }
